@@ -4,38 +4,14 @@ import { useState } from "react";
 import "../app/hero.css";
 
 const courses = [
-  "B.Tech - Computer Science & Engineering",
-  "B.Tech - Artificial Intelligence",
-  "B.Tech - Artificial Intelligence & Machine Learning",
-  "B.Tech - Artificial Intelligence & Data Science",
-  "B.Tech - Cyber Security",
-  "B.Tech - Data Science",
-  "B.Tech - Information Technology",
-  "B.Tech - Electronics & Communication Engineering",
-  "B.Tech - Mechanical Engineering",
-  "B.Tech - Civil Engineering",
-  "B.Tech - Electrical Engineering",
-
-  "BCA (Bachelor of Computer Applications)",
-  "BBA (Bachelor of Business Administration)",
-  "B.Com (Bachelor of Commerce)",
-  "B.Com (Hons.)",
-  "B.Sc (Computer Science)",
-  "B.Sc Nursing",
-  "B.Pharm (Bachelor of Pharmacy)",
-
-  "MBA (Master of Business Administration)",
-  "PGDM (Post Graduate Diploma in Management)",
-  "MCA (Master of Computer Applications)",
-  "M.Tech (Master of Technology)",
-
-  "BCA + MCA (Integrated)",
-  "BBA + MBA (Integrated)",
-
-  "BA LLB",
-  "LLB",
-  "GNM (General Nursing & Midwifery)",
-  "D.Pharm (Diploma in Pharmacy)",
+  "PGDM Global",
+  "PGDM Standard",
+  "MBA",
+  "MCA",
+  "B.Tech (ME)",
+  "(BBA + MBA)",
+  "BBA",
+  "BCA"
 ];
 
 const cities = [

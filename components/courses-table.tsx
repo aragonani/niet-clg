@@ -7,15 +7,14 @@ interface Props {
 
 const CoursesTable = ({ handleOpenForm }: Props) => {
   const courses = [
-    { name: "B.Sc", fees: "₹8.1 Lakhs", eligibility: "10+2 with 45%", date: "5 Jan-31 Aug 2026" },
-    { name: "B.Sc", fees: "₹4.5 Lakhs", eligibility: "10+2 with 50%", date: "5 Jan-31 Aug 2026" },
-    { name: "B.Pharm", fees: "₹6.8 Lakhs", eligibility: "10+2 with 55%", date: "5 Jan-31 Aug 2026" },
-    { name: "BE/B.Tech", fees: "₹11.2 Lakhs", eligibility: "10+2 with 55%", date: "5 Jan-31 Aug 2026" },
-    { name: "BCA", fees: "₹3.9 Lakhs", eligibility: "10+2 with 50%", date: "5 Jan-31 Aug 2026" },
-    { name: "Ph.D", fees: "₹2.1 Lakhs", eligibility: "Post Graduation", date: "1 Jan-23 Jan 2026" },
-    { name: "MCA", fees: "₹3.5 Lakhs", eligibility: "Graduation with 50%", date: "5 Jan-31 Aug 2026" },
-    { name: "GNM", fees: "₹2.1 Lakhs", eligibility: "10+2 with 40%", date: "5 Jan-31 Aug 2026" },
-    { name: "M.Pharm", fees: "₹3.2 Lakhs", eligibility: "B.Pharm with 55%", date: "5 Jan-31 Aug 2026" },
+    { name: "PGDM Global", fees: "₹8.1 Lakhs", eligibility: "10+2 with 45%", date: "5 Jan-31 Aug 2026" },
+    { name: "PGDM Standard", fees: "₹6.8 Lakhs", eligibility: "10+2 with 55%", date: "5 Jan-31 Aug 2026" },
+    { name: "MBA", fees: "₹11.2 Lakhs", eligibility: "10+2 with 55%", date: "5 Jan-31 Aug 2026" },
+    { name: "MCA", fees: "₹3.9 Lakhs", eligibility: "10+2 with 50%", date: "5 Jan-31 Aug 2026" },
+    { name: "B.Tech (ME)", fees: "₹2.1 Lakhs", eligibility: "Post Graduation", date: "1 Jan-23 Jan 2026" },
+    { name: "(BBA + MBA)", fees: "₹3.5 Lakhs", eligibility: "Graduation with 50%", date: "5 Jan-31 Aug 2026" },
+    { name: "BBA", fees: "₹2.1 Lakhs", eligibility: "10+2 with 40%", date: "5 Jan-31 Aug 2026" },
+    { name: "BCA", fees: "₹3.2 Lakhs", eligibility: "B.Pharm with 55%", date: "5 Jan-31 Aug 2026" },
   ];
 
   return (
