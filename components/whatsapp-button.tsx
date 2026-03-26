@@ -9,7 +9,7 @@ interface WhatsAppStickyProps {
 
 export default function WhatsAppSticky({
   phoneNumber,
-  message = "Hello, I want admission details for GIMS.",
+  message = "Hello, I want admission details for NIET.",
 }: WhatsAppStickyProps) {
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(

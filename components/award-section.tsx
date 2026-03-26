@@ -8,7 +8,7 @@ const awards = [
   {
     rank: "A++",
     sup: "",
-    description: "Ranked GIMS Amongst Top A++ India's Best B-Schools in Uttar Pradesh",
+    description: "Ranked NIET Amongst Top A++ India's Best B-Schools in Uttar Pradesh",
     source: "CAREERS360",
     sourceStyle: "careers",
     icon: <Star className="w-4 h-4" />,
@@ -35,7 +35,7 @@ const awards = [
   {
     rank: "19",
     sup: "th",
-    description: "Ranked GIMS Amongst the top 19 Private B-Schools North Zone 2025",
+    description: "Ranked NIET Amongst the top 19 Private B-Schools North Zone 2025",
     source: "Outlook",
     sourceStyle: "outlook",
     icon: <TrendingUp className="w-4 h-4" />,
@@ -53,7 +53,7 @@ const awards = [
   {
     rank: "20",
     sup: "",
-    description: "Ranked GIMS Amongst Top 20 Private B-Schools, Delhi NCR",
+    description: "Ranked NIET Amongst Top 20 Private B-Schools, Delhi NCR",
     source: "THE WEEK",
     sourceStyle: "theweek",
     icon: <Trophy className="w-4 h-4" />,
@@ -62,7 +62,7 @@ const awards = [
   {
     rank: "23",
     sup: "",
-    description: "Ranked GIMS Amongst Top 23 B-Schools North Zone",
+    description: "Ranked NIET Amongst Top 23 B-Schools North Zone",
     source: "BW BUSINESSWORLD",
     sourceStyle: "bw",
     icon: <TrendingUp className="w-4 h-4" />,
@@ -226,7 +226,7 @@ export default function AwardsSection({handleOpenForm}: Props) {
           </div>
 
           <h2 className="text-4xl sm:text-5xl font-black text-[#001f2d] tracking-tight leading-none mb-3">
-            GIMS{" "}
+            NIET{" "}
             <span className="relative inline-block">
               <span className="relative z-10 text-[#cf1427]">Awards</span>
               <span className="absolute -bottom-1 left-0 w-full h-2 bg-[#cf1427]/40 rounded-full z-0" />

@@ -24,7 +24,7 @@ const CoursesTable = ({ handleOpenForm }: Props) => {
       <div className="max-w-6xl mx-auto text-center mb-6">
 
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-        GNIOT University Noida Courses & Fees
+        NIET University Noida Courses & Fees
         </h2>
 
         <p className="text-gray-500 text-sm md:text-base mt-2">

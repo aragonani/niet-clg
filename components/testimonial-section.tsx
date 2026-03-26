@@ -12,7 +12,7 @@ const testimonials = [
     company: "Blackrock",
     batch: "MBA 2023",
     quote:
-      "The skills and knowledge I gained at GNIOT have been instrumental in shaping my career. The constant support from faculty and peers made a huge difference.",
+      "The skills and knowledge I gained at NIET have been instrumental in shaping my career. The constant support from faculty and peers made a huge difference.",
     initials: "AS",
     color: "#00648f",
   },
@@ -23,7 +23,7 @@ const testimonials = [
     company: "Goldman Sachs",
     batch: "MBA 2022",
     quote:
-      "GNIOT gave me a platform to transform my ambitions into reality. The industry exposure and case-study driven curriculum prepared me for real-world challenges from day one.",
+      "NIET gave me a platform to transform my ambitions into reality. The industry exposure and case-study driven curriculum prepared me for real-world challenges from day one.",
     initials: "RV",
     color: "#1a6b3c",
   },
@@ -34,7 +34,7 @@ const testimonials = [
     company: "Hindustan Unilever",
     batch: "PGDM 2023",
     quote:
-      "The PGDM program at GNIOT is a complete package — from world-class faculty to exceptional placement support. It reshaped how I think about business and leadership.",
+      "The PGDM program at NIET is a complete package — from world-class faculty to exceptional placement support. It reshaped how I think about business and leadership.",
     initials: "PS",
     color: "#7c3a8c",
   },
@@ -45,7 +45,7 @@ const testimonials = [
     company: "Amazon",
     batch: "PGDM 2022",
     quote:
-      "The global perspective and collaborative environment at GNIOT is unmatched. I built lifelong connections and a skill set that set me apart in every interview I attended.",
+      "The global perspective and collaborative environment at NIET is unmatched. I built lifelong connections and a skill set that set me apart in every interview I attended.",
     initials: "AM",
     color: "#b45309",
   },
