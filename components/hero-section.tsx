@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 import RegisterForm from "./register-form";
 import "../app/hero.css";
 
@@ -57,14 +58,13 @@ export default function HeroSection() {
 
           {/* Heading */}
           <h1 className="hero-heading">
-            Join India&apos;s Next{" "}
-            <span className="highlight">Generation</span>{" "}
+            Join India&apos;s Next <span className="highlight">Generation</span>{" "}
             of Business Leaders
           </h1>
 
           <p className="hero-sub">
-            A transformative UG & PG experience built on 20+ years of forging industry-ready leaders. 
-            Your ambition deserves the best launchpad.
+            A transformative UG & PG experience built on 20+ years of forging
+            industry-ready leaders. Your ambition deserves the best launchpad.
           </p>
 
           {/* Stats */}
@@ -94,10 +94,28 @@ export default function HeroSection() {
           {/* Trust line */}
           <div className="trust-line">
             <div className="trust-avatars">
-              {["A","R","S","K"].map((l, i) => (
-                <div key={i} className="avatar" style={{ zIndex: 4 - i, background: ["#00648f","#fcc423","#00a8c6","#f5a800"][i], color: i === 1 || i === 3 ? "#003850" : "#fff" }}>{l}</div>
+              {[
+                "/niet/user-1.webp",
+                "/niet/user-2.webp",
+                "/niet/user-3.webp",
+                "/niet/user-4.webp",
+              ].map((src, i) => (
+                <div
+                  key={i}
+                  className="avatar overflow-hidden"
+                  style={{ zIndex: 4 - i }}
+                >
+                  <Image
+                    src={src}
+                    alt={`user-${i}`}
+                    width={40}
+                    height={40}
+                    className="object-cover w-full h-full"
+                  />
+                </div>
               ))}
             </div>
+
             <p>
               <strong>12,000+ alumni</strong> across Fortune 500 companies
             </p>
@@ -109,8 +127,6 @@ export default function HeroSection() {
           <RegisterForm />
         </div>
       </div>
-
-    
     </section>
   );
 }
