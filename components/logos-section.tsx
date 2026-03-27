@@ -5,13 +5,12 @@ import Image from 'next/image';
 
 const logos = [
   "/niet/logo/aicte.webp",
-  "/niet/logo/aims.webp",
-  "/niet/logo/lsus.webp",
-  "/niet/logo/msme.webp",
-  "/niet/logo/naac.webp",
-  "/niet/logo/nhrd.webp",
-  "/niet/logo/xlri.webp",
-  "/niet/logo/yuva.webp",
+  "/niet/logo/aktu.webp",
+  "/niet/logo/nba.webp",
+  "/niet/logo/nirf.webp",
+  "/niet/logo/naac-grade.webp",
+  "/niet/logo/ugc-logo.webp",
+  "/niet/logo/pci.webp",
 ];
 
 const UniversityLogos = () => {

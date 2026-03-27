@@ -28,10 +28,10 @@ function Counter({ value }: { value: number }) {
 
 export default function AcademicsSection() {
   const stats = [
-    { label: "Years of Educational Excellence", value: 55, suffix: "+" },
+    { label: "Years of Educational Excellence", value: 20, suffix: "+" },
     { label: "Alumni Base", value: 1, suffix: " Million+" },
     { label: "International Collaborations", value: 50, suffix: "+" },
-    { label: "NAAC Accredited", value: 0, suffix: "A+", isText: true },
+    { label: "NAAC Accredited", value: 0, suffix: "A", isText: true },
     { label: "Pool of Academicians", value: 5000, suffix: "+" },
     { label: "Industry Oriented Professional Programmes", value: 70, suffix: "+" },
     { label: "Indian States & Union Territories Represented", value: 25, suffix: "+" },
