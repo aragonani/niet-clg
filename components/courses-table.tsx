@@ -52,7 +52,7 @@ const CoursesTable = ({ handleOpenForm }: Props) => {
       </div>
 
       {/* TABLE */}
-      <div className="w-full max-w-6xl mx-auto overflow-hidden rounded-xl border border-gray-200 shadow-sm bg-white">
+      <div className="w-full max-w-4xl mx-auto overflow-hidden rounded-xl border border-gray-200 shadow-sm bg-white">
 
         <div className="overflow-x-auto">
           <table className="w-full text-left border-collapse">
@@ -62,9 +62,9 @@ const CoursesTable = ({ handleOpenForm }: Props) => {
               <tr className="bg-[#cf1427] text-white">
                 <th className="px-6 py-4 text-sm font-semibold uppercase">Course</th>
                 <th className="px-6 py-4 text-sm font-semibold uppercase">Total Fees</th>
-                <th className="px-6 py-4 text-sm font-semibold uppercase">Eligibility</th>
-                <th className="px-6 py-4 text-sm font-semibold uppercase">Application Date</th>
-                <th className="px-6 py-4 text-sm font-semibold uppercase">Action</th>
+                {/* <th className="px-6 py-4 text-sm font-semibold uppercase">Eligibility</th>
+                <th className="px-6 py-4 text-sm font-semibold uppercase">Application Date</th> */}
+                <th className="px-6 py-4 text-sm font-semibold uppercase text-nowrap">Click To Know More</th>
               </tr>
             </thead>
 
@@ -98,18 +98,18 @@ const CoursesTable = ({ handleOpenForm }: Props) => {
                     </div>
                   </td>
 
-                  <td className="px-6 py-4 text-gray-700 text-sm">
+                  {/* <td className="px-6 py-4 text-gray-700 text-sm">
                     {course.eligibility}
                   </td>
 
                   <td className="px-6 py-4 text-gray-700 text-sm">
                     {course.date}
-                  </td>
+                  </td> */}
 
                   <td className="px-6 py-4">
                     <button
                       onClick={() => handleOpenForm(course.name)}
-                      className="bg-[#cf1427] hover:bg-[#ca091c] text-white text-xs font-bold py-2 px-5 rounded transition active:scale-95 shadow-sm"
+                      className="bg-[#cf1427] hover:bg-[#ca091c] text-white text-xs font-bold py-2 px-6 rounded transition active:scale-95 shadow-sm"
                     >
                       Apply Now
                     </button>

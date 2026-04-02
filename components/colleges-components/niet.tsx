@@ -68,7 +68,7 @@ const NietComponents = () => {
 
 
        <Modal isOpen={isModalOpen} onClose={() => handleCloseForm()}>
-        <RegisterForm formHeading={modalHeading}/>
+        <RegisterForm/>
        </Modal>
     </div>
   )
