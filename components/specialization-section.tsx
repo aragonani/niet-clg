@@ -93,7 +93,7 @@ function SpecCard({
           ${
             color === "gold"
               ? "bg-[#fcc423]/15 text-[#fcc423] group-hover:bg-[#fcc423]/25"
-              : "bg-[#60b8d4]/15 text-[#cf0707] group-hover:bg-[#cf0707]/25"
+              : "bg-[#60b8d4]/15 text-[#fcc423] group-hover:bg-[#fcc423]/25"
           }`}
       >
         {item.icon}
@@ -129,7 +129,7 @@ function ProgramColumn({
 }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-60px" });
-  const accent = color === "gold" ? "#fcc423" : "#cf0707";
+  const accent = color === "gold" ? "#fcc423" : "#fcc423";
 
   return (
     <motion.div
