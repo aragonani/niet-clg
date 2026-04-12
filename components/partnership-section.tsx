@@ -5,6 +5,15 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
 const partnerLogos = [
+  { name: "google", url: "/niet/logo/google.webp" },
+  { name: "microsoft", url: "/niet/logo/microsoft.webp" },
+  { name: "boa", url: "/niet/logo/boa.webp" },
+  { name: "ericsson", url: "/niet/logo/ericsson.webp" },
+  { name: "icici", url: "/niet/logo/icici.webp" },
+  { name: "deloitte", url: "/niet/logo/deloitte.webp" },
+  { name: "levis", url: "/niet/logo/levis.webp" },
+  { name: "accenture", url: "/niet/logo/accenture.webp" },
+  { name: "boat", url: "/niet/logo/boat.webp" },
   { name: "ACCA", url: "/niet/logo/logo-1.webp" },
   { name: "Xebia", url: "/niet/logo/logo-2.webp" },
   { name: "Siemens", url: "/niet/logo/logo-3.webp" },
@@ -130,7 +139,7 @@ export default function PartnershipSection({handleOpenForm}: Props) {
             viewport={{ once: true }}
             className="w-full flex flex-col items-center gap-6 mt-12 md:hidden"
           >
-            <button  onClick={() => handleOpenForm()} className="bg-[#e2a400] text-black font-bold px-8 py-3 rounded-sm flex items-center gap-2 shadow-md active:scale-95">
+            <button  onClick={() => handleOpenForm()} className="bg-[#cf1427] text-white font-bold px-8 py-3 rounded-sm flex items-center gap-2 shadow-md active:scale-95">
               APPLY NOW <ArrowRight size={18} />
             </button>
           </motion.div>
