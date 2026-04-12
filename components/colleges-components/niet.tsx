@@ -14,23 +14,28 @@ import { useEffect, useState } from 'react'
 import WhatsAppSticky from '../whatsapp-button'
 import CoursesTable from '../courses-table'
 import Header from '../header'
+import MobileAdmissionCard from '../mobile-admission-card'
+import OfferSection from '../timer'
+import HighlightsSection from '../highlight-section'
 
 const NietComponents
  = () => {
 
-    const [isModalOpen, setIsModalOpen] = useState(false);
+      const [isModalOpen, setIsModalOpen] = useState(false);
     const [modalHeading, setModalHeading] = useState("");
     const [selectedCourse, setSelectedCourse] = useState("");
+    const [isPaused, setIsPaused] = useState(false);
 
   // function to open modal with optional heading
-  const handleOpenForm = (courseName = "") => {
+  const handleOpenForm = (courseName = "", headingText = "") => {
     setIsModalOpen(true);
     setSelectedCourse(courseName);
+    setModalHeading(headingText);
   };
 
   const handleCloseForm = () => {
     setIsModalOpen(false);
-    setModalHeading("");
+    setModalHeading("Apply For NIET College");
     setSelectedCourse("");
   }
 
@@ -51,13 +56,14 @@ const NietComponents
       clearInterval(interval);
     };
   }, []);
-
   return (
     <div>
       <ScrollProgressBar />
-      <Header  handleOpenForm={handleOpenForm}/>
+      <Header handleOpenForm={handleOpenForm}/>
+      <MobileAdmissionCard handleOpenForm={handleOpenForm}/>
       <HeroSection />
       <UniversityLogos />
+      <HighlightsSection />
       <PartnershipSection  handleOpenForm={handleOpenForm}/>
       <CoursesTable handleOpenForm={handleOpenForm}/>
       <AcademicsSection/>
@@ -71,8 +77,14 @@ const NietComponents
 
 
        <Modal isOpen={isModalOpen} onClose={() => handleCloseForm()}>
-        <RegisterForm selectedCourse={selectedCourse} />
+        <RegisterForm formHeading={modalHeading} selectedCourse={selectedCourse} />
        </Modal>
+
+        <OfferSection 
+        handleOpenForm={() => handleOpenForm()}
+        isTimer={true}
+        isPaused={isPaused}
+      />
     </div>
   )
 }
